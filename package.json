@@ -1,0 +1,19 @@
+{
+  "name": "interview-test",
+  "version": "1.0.0",
+  "description": "A script to setup Clique PoA network",
+  "scripts": {
+    "create": "node app.js new",
+    "delete": "node app.js delete",
+    "restart": "node app.js restart",
+    "stop": "node app.js stop"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "ethereumjs-util": "^6.1.0",
+    "ethereumjs-wallet": "^0.6.3",
+    "inquirer": "^3.0.6",
+    "shelljs": "^0.8.3",
+    "web3": "^1.0.0-beta.55"
+  }
+}
